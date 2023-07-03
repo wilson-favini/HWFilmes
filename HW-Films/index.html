@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <script src="assets/dist/js/"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbars-offcanvas/">
+  <link rel="stylesheet" href="css/incio.css">
+  <link rel="stylesheet " href="css/style.css">
+  <link rel="stylesheet " href="css/carousel.min.css">
+  <title>FLYFILMS-INICIO</title>
+
+<script src="js/jquery-3.5.1.min.js "></script>
+<script src="js/carousel.js "></script>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid"
+    style="color: #ff0000;" class="nome text-center">
+    <h1>FLYFILMS</h1>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="color: #fff;"></span>
+        <!--<svg style="color: #fff;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 32 32" id="Glyph" version="1.1" viewBox="0 0 32 32" xml:space="preserve"><path d="M26,16c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,14,26,14.896,26,16z" id="XMLID_314_"/><path d="M26,8c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,6,26,6.896,26,8z" id="XMLID_315_"/><path d="M26,24c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,22,26,22.896,26,24z" id="XMLID_316_"/></svg>-->
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" style="color: #fff;" aria-current="page" href="#">Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"  style="color: #fff;" aria-current="page" href="./html/login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"  style="color: #fff;" aria-current="page" href="./html/plano.html">Plano</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" class="nav-link active"  style="color: #fff;" aria-current="page" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="true">
+              Categorias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" class="nav-link active" aria-current="page" href="#drama">dramas</a></li>
+              <li><a class="dropdown-item" href="#suspense">suspense</a></li>
+              <li><a class="dropdown-item" href="#ação"> ação</a></li>
+              <li><a class="dropdown-item" href="#animes">animes</a></li>
+              <li><a class="dropdown-item" href="#Comédia">Comédia</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-item" class="nav-link active"  style="color: #f10707;" aria-current="page" href="#" role="button"
+              aria-current="page" href="#">incio</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Degite aqui" aria-label="Search">
+          <button class="btn btn-danger"  style="color: #fff;" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/John-Wick-4-.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/John-Wick-4-.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/John-Wick-4-.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ 
+  <h2 style="color: #fff; margin: 50px 0 0 50px;">Lançamentos</h2>
+  <section id="slaide">
+    <div class="row">
+        <div class="large-12 columns">
+            <div class="car-carousel car-theme">
+                <div class="item">
+                    <img src="./img/moon lovers.jpg" style="position:absolute; height:100%;">
+                </div>
+                <div class="item">
+                    <img src="./moon lovers.jpg" style="position:absolute; height:100%;">
+                </div>
+                <div class="item">
+                    <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                    <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                    <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                    <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                    <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                    <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">>
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+                <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+                </div>
+            </div>
+
+            <script>
+                $(document).ready(function() {
+                    $('.car-carousel').carCarousel({
+                        loop: false,
+                        margin: 5,
+                        responsiveClass: true,
+                        responsive: {
+                            0: {
+                                items: 2,
+                                nav: true
+                            },
+                            600: {
+                                items: 4,
+                                nav: true
+                            },
+                            1000: {
+                                items: 7,
+                                nav: true,
+                                loop: false,
+                                margin: 3
+                            }
+                        }
+                    })
+                })
+            </script>
+        </div>
+    </div>
+</section>
+
+<h2 style="color: #fff; margin: 50px 0 0 50px;">minha Lista</h2>
+<section id="slaide">
+  <div class="row">
+      <div class="large-12 columns">
+          <div class="car-carousel car-theme">
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height: 85%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">>
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+          </div>
+
+          <script>
+              $(document).ready(function() {
+                  $('.car-carousel').carCarousel({
+                      loop: false,
+                      margin: 5,
+                      responsiveClass: true,
+                      responsive: {
+                          0: {
+                              items: 2,
+                              nav: true
+                          },
+                          600: {
+                              items: 4,
+                              nav: true
+                          },
+                          1000: {
+                              items: 7,
+                              nav: true,
+                              loop: false,
+                              margin: 3
+                          }
+                      }
+                  })
+              })
+          </script>
+      </div>
+  </div>
+</section>
+
+
+<h2 style="color: #fff; margin: 50px 0 0 50px;">dramas</h2>
+<section id="slaide">
+  <div class="row">
+      <div class="large-12 columns">
+          <div class="car-carousel car-theme">
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height: 85%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">>
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+          </div>
+
+          <script>
+              $(document).ready(function() {
+                  $('.car-carousel').carCarousel({
+                      loop: false,
+                      margin: 5,
+                      responsiveClass: true,
+                      responsive: {
+                          0: {
+                              items: 2,
+                              nav: true
+                          },
+                          600: {
+                              items: 4,
+                              nav: true
+                          },
+                          1000: {
+                              items: 7,
+                              nav: true,
+                              loop: false,
+                              margin: 3
+                          }
+                      }
+                  })
+              })
+          </script>
+      </div>
+  </div>
+</section>
+
+
+<h2 style="color: #fff; margin: 50px 0 0 50px;">suspense</h2>
+<section id="slaide">
+  <div class="row">
+      <div class="large-12 columns">
+          <div class="car-carousel car-theme">
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height: 85%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">>
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+          </div>
+
+          <script>
+              $(document).ready(function() {
+                  $('.car-carousel').carCarousel({
+                      loop: false,
+                      margin: 5,
+                      responsiveClass: true,
+                      responsive: {
+                          0: {
+                              items: 2,
+                              nav: true
+                          },
+                          600: {
+                              items: 4,
+                              nav: true
+                          },
+                          1000: {
+                              items: 7,
+                              nav: true,
+                              loop: false,
+                              margin: 3
+                          }
+                      }
+                  })
+              })
+          </script>
+      </div>
+  </div>
+</section>
+
+
+<h2 style="color: #fff; margin: 50px 0 0 50px;">ação</h2>
+<section id="slaide">
+  <div class="row">
+      <div class="large-12 columns">
+          <div class="car-carousel car-theme">
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height: 85%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">>
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+          </div>
+
+          <script>
+              $(document).ready(function() {
+                  $('.car-carousel').carCarousel({
+                      loop: false,
+                      margin: 5,
+                      responsiveClass: true,
+                      responsive: {
+                          0: {
+                              items: 2,
+                              nav: true
+                          },
+                          600: {
+                              items: 4,
+                              nav: true
+                          },
+                          1000: {
+                              items: 7,
+                              nav: true,
+                              loop: false,
+                              margin: 3
+                          }
+                      }
+                  })
+              })
+          </script>
+      </div>
+  </div>
+</section>
+
+
+<h2 style="color: #fff; margin: 50px 0 0 50px;">animes</h2>
+<section id="slaide">
+  <div class="row">
+      <div class="large-12 columns">
+          <div class="car-carousel car-theme">
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height: 85%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">>
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+          </div>
+
+          <script>
+              $(document).ready(function() {
+                  $('.car-carousel').carCarousel({
+                      loop: false,
+                      margin: 5,
+                      responsiveClass: true,
+                      responsive: {
+                          0: {
+                              items: 2,
+                              nav: true
+                          },
+                          600: {
+                              items: 4,
+                              nav: true
+                          },
+                          1000: {
+                              items: 7,
+                              nav: true,
+                              loop: false,
+                              margin: 3
+                          }
+                      }
+                  })
+              })
+          </script>
+      </div>
+  </div>
+</section>
+
+
+<h2 style="color: #fff; margin: 50px 0 0 50px;">comédia</h2>
+<section id="slaide">
+  <div class="row">
+      <div class="large-12 columns">
+          <div class="car-carousel car-theme">
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height: 85%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                  <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">>
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+              <div class="item">
+                <img src="../HWfilms/img/moon lovers.jpg" style="position:absolute; width: 250px; height:100%;">
+              </div>
+          </div>
+
+          <script>
+              $(document).ready(function() {
+                  $('.car-carousel').carCarousel({
+                      loop: false,
+                      margin: 5,
+                      responsiveClass: true,
+                      responsive: {
+                          0: {
+                              items: 2,
+                              nav: true
+                          },
+                          600: {
+                              items: 4,
+                              nav: true
+                          },
+                          1000: {
+                              items: 7,
+                              nav: true,
+                              loop: false,
+                              margin: 3
+                          }
+                      }
+                  })
+              })
+          </script>
+      </div>
+  </div>
+</section>
+
+  <br>
+  <br>
+  
+
+
+  <footer class="container">
+    <p class="float-end"><a href="#">Privacisdade e Termos</a></p>
+    <p>&copy; 2023- company inc. &middot; <a href="#"></a></p>
+  </footer>
+
+  <script src="../script.js/incio.js"></script>
+  <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>

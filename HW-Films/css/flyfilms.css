@@ -1,0 +1,27 @@
+.body{
+    color: rgb(243, 243, 243);
+    background-color: rgb(70, 73, 75);
+}
+.ul{
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+.a{
+    color: rgb(248, 7, 7);
+    text-decoration: none;
+}
+.h1{
+    font-size: large;
+    width: 100px;
+    height: 100%;
+    margin-bottom: auto;
+}
+
+.div{
+    margin: auto;
+    margin-bottom:auto;
+    display: flex;
+}
